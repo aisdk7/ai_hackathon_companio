@@ -1,5 +1,5 @@
 
-# AI-Powered ADA Travel Assistant
+# Companio: AI-Powered ADA Travel Assistant
 
 ## Project Summary for PowerPoint
 
