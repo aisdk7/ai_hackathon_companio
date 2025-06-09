@@ -9,6 +9,22 @@ An AI-driven travel planning system that intelligently searches and recommends A
 
 ---
 
+## Workflow
+```mermaid
+flowchart TD
+    A["User Input: Travel Preferences & Accessibility Needs"] --> B{"AI Agent"}
+    B --> C["Dynamic SQL Generation<br/>(Create DB queries for hotels & attractions)"]
+    C --> D["Hotel Search<br/>(Filter ADA-compliant hotels)"]
+    C --> E["Attraction Search<br/>(Filter accessible attractions)"]
+    D --> F["Rank Hotels<br/>(By reviews & accessibility)"]
+    E --> G["Rank Attractions<br/>(By ratings & accessibility)"]
+    F --> H["Select Top 5 Hotels"]
+    G --> I["Select Top 5 Attractions"]
+    H --> J["Smart Itinerary Creation<br/>(Combine hotels & attractions)"]
+    I --> J
+    J --> K["Personalized Accessible Itinerary<br/>(Results with highlighted accessibility features)"]
+```
+
 ## 🤖 AI Features
 
 - **Dynamic SQL Generation:**  
